@@ -1,7 +1,7 @@
 {
   "name": "psa",
   "version": "0.1.0",
-  "homepage": "https://calpsa.github.io/website",
+  "homepage": "https://calpsa.github.io/",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
