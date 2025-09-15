@@ -5,12 +5,15 @@ import Hashim from "../../assets/board/hashim.jpg"
 import Saeed from "../../assets/board/saeed.jpg"
 import Amal from "../../assets/board/amal.jpg"
 import Azmarak from "../../assets/board/azmarak.jpg"
-import Jazem from "../../assets/board/jazem.jpg"
-import Manal from "../../assets/board/manal.jpg"
 import Mashal from "../../assets/board/mashal.jpg"
 import Mustafa from "../../assets/board/mustafa.jpg"
 import Raaed from "../../assets/board/raaed.jpg"
 import Sundus from "../../assets/board/sundus.jpg"
+import Shayan from "../../assets/board/shayan.jpg"
+import Neha from "../../assets/board/neha.jpg"
+import Shahbano from "../../assets/board/shahbano.jpg"
+import Nastaasia from "../../assets/board/nastaasia.jpg"
+import Aisha from "../../assets/board/aisha.jpg"
 
 function People() {
     return ( 
@@ -31,16 +34,31 @@ function People() {
             <Card firstName="Amal" lastName="Imran" role="Co-Director of Logistics" avi={Amal} email="aimran2021@berkeley.edu"/>
         </div>
         <div className={styles.gridItem}>
-            <Card firstName="Mustafa" lastName="Jawaid" role="Director of Internal Affairs" avi={Mustafa} email="mustafajawaid@berkeley.edu"/>
-        </div>
-        <div className={styles.gridItem}>
-            <Card firstName="Jazem" lastName="Siddiqui" role="Director of Transportation Services" avi={Jazem} email="jazem@berkeley.edu"/>
-        </div>
-        <div className={styles.gridItem}>
             <Card firstName="Raaed" lastName="Kamran" role="Co-Director of Logistics" avi={Raaed} email="raaed.kamran@berkeley.edu"/>
         </div>
         <div className={styles.gridItem}>
+            <Card firstName="Mustafa" lastName="Jawaid" role="Director of Internal Affairs" avi={Mustafa} email="mustafajawaid@berkeley.edu"/>
+        </div>
+        <div className={styles.gridItem}>
+            <Card firstName="Jazem" lastName="Siddiqui" role="Prime Minister" email="jazem@berkeley.edu"/>
+        </div>
+        <div className={styles.gridItem}>
             <Card firstName="Sundus" lastName="Khan" role="Director of Marketing" avi={Sundus} email="sunduskh@berkeley.edu"/>
+        </div>
+        <div className={styles.gridItem}>
+            <Card firstName="Shayan" lastName="Abbas" role="Intern" avi={Shayan} email="shayannabas@berkeley.edu"/>
+        </div>
+        <div className={styles.gridItem}>
+            <Card firstName="Shahbano" lastName="Haroon" role="Intern" avi={Shahbano} email="shahbanoharoon@berkeley.edu"/>
+        </div>
+        <div className={styles.gridItem}>
+            <Card firstName="Nastaasia" lastName="Haq" role="Intern" avi={Nastaasia} email="nastaasiahaq@berkeley.edu"/>
+        </div>
+        <div className={styles.gridItem}>
+            <Card firstName="Aisha" lastName="Ashamu" role="Intern" avi={Aisha} email="ashamuao@berkeley.edu"/>
+        </div>
+        <div className={styles.gridItem}>
+            <Card firstName="Neha" lastName="Masood" role="Intern" avi={Neha} email="nehamasood@berkeley.edu"/>
         </div>
     </div> );
 }
