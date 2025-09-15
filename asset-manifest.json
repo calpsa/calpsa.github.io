@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.5eaa2fba.css",
-    "main.js": "/website/static/js/main.04847277.js",
+    "main.js": "/website/static/js/main.425413eb.js",
     "static/media/culture.jpg": "/website/static/media/culture.fa1f6e545500a8386c87.jpg",
     "static/media/culture_show.png": "/website/static/media/culture_show.13aa2a0eafc8af56c125.png",
     "static/media/politics.jpg": "/website/static/media/politics.dc1a9ba59450b6fdffc2.jpg",
@@ -25,10 +25,10 @@
     "static/media/logo.png": "/website/static/media/logo.acda2c89d6adefd3bba1.png",
     "index.html": "/website/index.html",
     "main.5eaa2fba.css.map": "/website/static/css/main.5eaa2fba.css.map",
-    "main.04847277.js.map": "/website/static/js/main.04847277.js.map"
+    "main.425413eb.js.map": "/website/static/js/main.425413eb.js.map"
   },
   "entrypoints": [
     "static/css/main.5eaa2fba.css",
-    "static/js/main.04847277.js"
+    "static/js/main.425413eb.js"
   ]
 }
