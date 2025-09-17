@@ -38,3 +38,25 @@ To add or edit FAQ questions, modify `/src/assets/faq_data.js`:
 ```
 Add new questions by copying this format into the faqs array, or edit existing questions directly.
 
+## Deployment
+1. **Commit and push your changes**:
+   ```bash
+   # Stage all changes
+   git add .
+   
+   # Commit with a descriptive message
+   git commit -m "Description of your changes"
+   
+   # Push directly to main branch (it's ok)
+   git push origin main
+   ```
+
+2. **Deploy to GitHub Pages**:
+   ```bash
+   npm run deploy
+   ```
+
+3. **Verify deployment**:
+   - Wait 2-3 minutes for changes to propagate
+   - Visit https://calpsa.org
+
