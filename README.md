@@ -1,9 +1,16 @@
 CAL PSA WEBSITE ©2023
 
 ## Setup and Running Locally
-1. Install dependencies: `npm install`
-2. Start dev server: `npm start`
-3. Open http://localhost:3000 in your browser
+To get the project running on your computer, use your **terminal** or **command prompt** to follow these steps:
+
+1. Download the project from GitHub and open it in an IDE (like Visual Studio Code).
+```bash
+git clone https://github.com/calpsa/calpsa.github.io.git
+```
+2. Open a terminal in the IDE.
+3. Install dependencies: `npm install`
+4. Start dev server: `npm start`
+5. Open http://localhost:3000 in your browser
 
 ## Making Common Changes
 
@@ -44,7 +51,7 @@ This section explains how to save and publish your changes to the live website o
 ### 1. Commit and Push Your Changes
 To save your local changes to the main branch, you'll first need to use Git commands. These commands stage your changes, create a new commit, and then push that commit to the remote repository.
 
-* **Stage all changes:** The command `git add .` stages **all** modified and new files for the next commit.
+* **Stage all changes:** This command stages **all** modified and new files for the next commit.
     ```bash
     git add .
     ```
