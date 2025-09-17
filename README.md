@@ -73,4 +73,4 @@ Once your changes are pushed to the main branch, you can deploy the website. Thi
     ```
 ---
 ### 3. Verify Deployment
-After running the deploy command, you'll need to wait for the changes to go live. View the live changes at http://calpsa.org
+After running the deploy command, you'll need to wait for the changes to go live. View the live changes at https://calpsa.org
