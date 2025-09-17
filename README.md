@@ -1,4 +1,4 @@
-Official website of the University of California, Berkeley's Pakistani Student Association.
+CAL PSA WEBSITE ©2023
 
 ## Setup and Running Locally
 1. Install dependencies: `npm install`
@@ -38,3 +38,32 @@ To add or edit FAQ questions, modify `/src/assets/faq_data.js`:
 ```
 Add new questions by copying this format into the faqs array, or edit existing questions directly.
 
+## Deploying Changes
+This section explains how to save and publish your changes to the live website on GitHub Pages. 🚀
+
+### 1. Commit and Push Your Changes
+To save your local changes to the main branch, you'll first need to use Git commands. These commands stage your changes, create a new commit, and then push that commit to the remote repository.
+
+* **Stage all changes:** The command `git add .` stages **all** modified and new files for the next commit.
+    ```bash
+    git add .
+    ```
+* **Create a commit:** A commit is a snapshot of your repository at a specific point in time. The `git commit` command creates a new commit, and the `-m` flag allows you to add a descriptive message. Make your message clear and concise, summarizing the changes you made (e.g., "Updated board members and fixed typos").
+    ```bash
+    git commit -m "Your descriptive message here"
+    ```
+* **Push to the main branch:** The `git push` command sends your committed changes from your local repository to the remote repository on GitHub.
+    ```bash
+    git push origin main
+    ```
+---
+### 2. Deploy Changes to GitHub Pages
+Once your changes are pushed to the main branch, you can deploy the website. This process builds the project and publishes it to GitHub Pages.
+
+* **Run the deploy script:** The `npm run deploy` command executes a script that builds the production version of the site and pushes it to the `gh-pages` branch. This is the branch GitHub Pages uses to serve the website.
+    ```bash
+    npm run deploy
+    ```
+---
+### 3. Verify Deployment
+After running the deploy command, you'll need to wait for the changes to go live. View the live changes at http://calpsa.org
